@@ -10,6 +10,13 @@ gem 'spring', :group => :development
 
 gem 'pg'
 
+gem 'factory_girl_rails', '~> 4.5.0', :group => :test
+
+gem 'rspec-rails', '~> 3.2.1', :group => :test
+
+gem 'cucumber-api-steps', '~> 0.13', :group => :test
+
+gem 'shoulda', '~> 3.5.0', :group => :test
 
 
 # To use ActiveModel has_secure_password
